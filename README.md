@@ -49,6 +49,7 @@ The following steps were taken to handle the issues with the datasets
 
 ### Data Preparation & Cleaning
 During the data preparation and cleaning stage, several steps were taken to ensure the data is ready for analysis. The process was carried out with meticulous attention to detail and aimed to address any issues identified earlier. For the 2018 dataset, cleaning involved removing dashes (-) from the amount column. The Amount column also contain two different currencies “Rupees (₹) and US dollar ( $ ), therefore there was a need to convert the rupees into US dollars. Currency symbols and commas were removed from the amount column, and its data type was changed to float to allow for numeric computations. The amounts without currency symbols were assumed to be in dollars ( $ ). Additionally, a new column, Amount ($), was created to hold the converted dollar values, and converted into float.
+
 For the combined 2019, 2020, and 2021 datasets, each column underwent individual cleaning. Foreign values in the columns were replaced with either 0 or N/A using the df.replace() function. The data types of the columns were adjusted using df.astype(), and missing values (nan) were filled with the desired values using df.fillna(). Repetitive or irrelevant columns were dropped using df.drop(). Incorrectly placed values were moved to their appropriate columns using df.loc and df.to_numpy(). Furthermore, column names were updated using df.rename() to ensure clarity and consistency. With the data now prepared and cleaned, it is ready for analysis and to derive meaningful insights from it. The meticulousness of the cleaning process ensures the accuracy and reliability of the subsequent analysis.
 ### Business Questions
 1.What sectors have shown the highest growth in terms of funding received over the past four years?
@@ -65,10 +66,13 @@ Null Hypothesis(H0): There is no significant difference in the average funding a
 Alternative Hypothesis(H1): There is a significant difference in the average funding amounts between early-stage startups and established companies.
 ### Analysis:
 Firstly, the Technology sector emerged as the most funded sector, receiving a substantial sum of $179.342 Billion out of the sum of $351 Billion . This sector demonstrated its dominance in attracting investments. Additionally, it was observed that the headquarters located in Mumbai received the highest funding among all the regions.
+
 Secondly, the average funding received across various sectors during this period amounted to $151 million, indicating a significant level of investment activity. On the other hand, the Construction sector received the least funding, totaling $3.3 million, highlighting its relatively lower appeal to investors.
+
 The analysis of 2018 data reinforced the finding that the Technology sector consistently received the highest funding throughout the entire period from 2018 to 2021. This demonstrates the sustained investment interest in the technology industry over the years.
 ### Recommendation:
 Based on the analysis of the funding trends from 2018 to 2021, it is clear that the Technology sector has been a frontrunner in attracting investments. This sector has consistently received the highest funding throughout the analyzed period. Therefore, it is recommended for investors and entrepreneurs to explore opportunities within the Technology sector. Investing in technology-driven startups and ventures can potentially yield favorable returns and provide opportunities for growth and innovation. Startups operating in areas such as software development, artificial intelligence, e-commerce, and digital services have demonstrated their potential for success.
+
 Furthermore, considering the significant funding received by headquarters located in Mumbai, it may be beneficial to explore the startup ecosystem in this region. Mumbai has shown promising potential as a hub for entrepreneurial activities and investments. Collaborating with local startup communities, attending industry events, and engaging with relevant stakeholders in Mumbai can provide valuable networking opportunities and access to potential investment prospects.
 ### CONCLUSIONS
 Based on the analysis, the Null Hypothesis is rejected because it is clear that Technological industries have a higher success rate of being funded.
