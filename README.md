@@ -124,9 +124,9 @@ The datasets share several common columns, each providing essential insights int
 ### Dashboard
 ![image](Capture.PNG)
 
-![image](Capture 1.PNG)
+![image](Capture1.PNG)
 
-![image](Capture 2.PNG)
+![image](Capture2.PNG)
 
 
 ---
