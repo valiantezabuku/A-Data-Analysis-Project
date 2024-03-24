@@ -1,7 +1,5 @@
 # A-Data-Analysis-Project (India Startup Funding Analysis)
 
----
-
 ### 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
