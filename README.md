@@ -56,13 +56,13 @@ Here, you need to recursively install the packages in the `requirements.txt` fil
 
 ##### Imported libraries
 To begin the analysis, I started by importing the necessary libraries and packages that will be used throughout the process. These libraries include:
-•	Pandas: for data cleaning and manipulation
-•	Numpy: for data cleaning and manipulation
-•	Matplotlib: for visualizations
-•	Seaborn: for visualizations
-•	Plotly: for visualizations
-•	Mann Whitney: for Hypothesis testing
-•	Re: for regular expressions
+- Pandas: for data cleaning and manipulation
+- Numpy: for data cleaning and manipulation
+- Matplotlib: for visualizations
+- Seaborn: for visualizations
+- Plotly: for visualizations
+- Mann Whitney: for Hypothesis testing
+- Re: for regular expressions
 
 ---
 
