@@ -29,7 +29,7 @@ This project presents an analysis of funding received by Indian startups from 20
 ### Summary
 | Project Code | Project Name | Published Article | Power BI Dashboard |Libraries Used|
 |--------------|--------------|-------------------|-----------------|--------------|
-| LP1          | India <br> Startup <br> Funding <br> Analysis| [Medium <br> Article](https://medium.com/@vezabuku09/about-this-project-525036afe654) | [PowerBI <br>](https://app.powerbi.com/groups/me/reports/16ec7b9f-21c4-4342-89f5-4e6a9cf54f1f/ReportSectionac15215b36bb84326299?experience=power-bi)|Pandas <br> Numpy <br> Matplotlib <br> Seaborn|
+| LP1          | Indian <br> Startup <br> Funding <br> Analysis| [Medium <br> Article](https://medium.com/@vezabuku09/about-this-project-525036afe654) | [PowerBI <br>](https://app.powerbi.com/groups/me/reports/16ec7b9f-21c4-4342-89f5-4e6a9cf54f1f/ReportSectionac15215b36bb84326299?experience=power-bi)|Pandas <br> Numpy <br> Matplotlib <br> Seaborn|
 
 ---
 
