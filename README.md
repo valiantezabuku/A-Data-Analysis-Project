@@ -150,7 +150,7 @@ Adiru Valiant Ezabuku
 
 Email: vezabuku09@gmail.com
 
-[Linkedin](https://www.linkedin.com/in/valiant-ezabuku/)
+Linkedin Account: [Linkedin](https://www.linkedin.com/in/valiant-ezabuku/)
 
 #### ⭐️ Show your support
 
